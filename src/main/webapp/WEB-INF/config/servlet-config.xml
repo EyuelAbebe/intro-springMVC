@@ -14,7 +14,7 @@
 	<mvc:interceptors>
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
 			p:paramName="Language" />
-	</mvc:interceptors>
+	</mvc:interceptors> 
 
 	<bean id="LocaleResolver"
 		class="org.springframework.web.servlet.i18n.SessionLocaleResolver"
